@@ -1,0 +1,53 @@
+<!DOCTYE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+    <body>
+        <!--<h2> My Hobby</h2>
+        <p> My  <i>favourite</i>  hobby is <b>dancing </b></p>
+        <img src=" https://images.unsplash.com/photo-1547153760-18fc86324498?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80" alt=" a picture" width="304" height="228">
+    <a href="https://www.oldschoolsportsday.co.uk/wpcms/wp-content/uploads/2018/12/DanceClasses-SH.jpg">a go to google link </a>
+    <p> please join  <b>dance classs </b> </p> -->
+
+
+    <div id="container">
+        <div id="header">
+            <img src="data:image/png;base64,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"> 
+        <a style="position:absolute; top:20px; left:250px" href="file:///C:/Users/Manpreet/Documents/New%20Assingment/traveldeals.html"> <b>Travel Deals </b> </a> 
+        <a style="position:absolute; top:20px; left:450px" href="file:///C:/Users/Manpreet/Documents/New%20Assingment/traveltopic.html"> <b>Travel Topics </b></a> 
+        <a style="position:absolute; top:20px; left:650px" href="file:///C:/Users/Manpreet/Documents/New%20Assingment/traveldestination.html"> <b>Travel Destination</b></a> 
+    <p style="position:absolute; top:6px; left:1000px"> <b>Contact us : 01142324250</b></p>
+    </div>
+
+            <div id="panel1">
+            left menu 
+</div>
+        <div id="panel2">
+            right menu 
+            </div>
+            <div id="body">
+            
+            </div>
+            <div id="footer">
+                <a style="position:absolute; bottom:20px; left:250px" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi589r0_dT3AhWVl-0KHdrbA-AYABAGGgJkZw&ae=2&ohost=www.google.co.uk&cid=CAASJuRoTZMoxgH1H9QJngnpW-0MHKVahli296a0D-05EFFOW4wmj7k9&sig=AOD64_3wBgJgJ_OpnPv5yYj7ypTu4SyT0Q&q&adurl&ved=2ahUKEwj11NP0_dT3AhXlQUEAHS8HDSYQ0Qx6BAgDEAE"> <b>About us </b> </a> 
+                <a style="position:absolute; bottom:1px; left:250px" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi589r0_dT3AhWVl-0KHdrbA-AYABAGGgJkZw&ae=2&ohost=www.google.co.uk&cid=CAASJuRoTZMoxgH1H9QJngnpW-0MHKVahli296a0D-05EFFOW4wmj7k9&sig=AOD64_3wBgJgJ_OpnPv5yYj7ypTu4SyT0Q&q&adurl&ved=2ahUKEwj11NP0_dT3AhXlQUEAHS8HDSYQ0Qx6BAgDEAE"> <b>partner </b> </a> 
+                <p style="position:absolute; bottom:6px; left:500px"> <b>Legal</b></p>
+                <a style="position:absolute; bottom:1px; left:450px" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi589r0_dT3AhWVl-0KHdrbA-AYABAGGgJkZw&ae=2&ohost=www.google.co.uk&cid=CAASJuRoTZMoxgH1H9QJngnpW-0MHKVahli296a0D-05EFFOW4wmj7k9&sig=AOD64_3wBgJgJ_OpnPv5yYj7ypTu4SyT0Q&q&adurl&ved=2ahUKEwj11NP0_dT3AhXlQUEAHS8HDSYQ0Qx6BAgDEAE"> <b> Terms & Condition </b> </a> 
+                <p style="position:absolute; bottom:6px; left:700px"> <b> follow us </b></p>
+                <!--<a style="position:absolute; bottom:1px; left:450px" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi589r0_dT3AhWVl-0KHdrbA-AYABAGGgJkZw&ae=2&ohost=www.google.co.uk&cid=CAASJuRoTZMoxgH1H9QJngnpW-0MHKVahli296a0D-05EFFOW4wmj7k9&sig=AOD64_3wBgJgJ_OpnPv5yYj7ypTu4SyT0Q&q&adurl&ved=2ahUKEwj11NP0_dT3AhXlQUEAHS8HDSYQ0Qx6BAgDEAE"> <b> facebook </b> </a> 
+                 <!--<img src="https://logodix.com/logo/659033.jpg " style="position:absolute; bottom:1px; left:450px;">-->
+
+                
+
+            </div>
+
+
+
+        </div>
+        
+
+    </div>
+
+</body>
+</html>
