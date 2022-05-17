@@ -1,0 +1,53 @@
+body
+
+    
+    
+#pan1{
+    width: 200px;
+    height: 400px;
+    float: left;
+    color: red;
+    background-color:blue;
+    margin-top: -200px;
+}
+#header{
+    width: 1335px;
+    height: 50px;
+    top: 0%;
+
+    
+    text-align:left;
+   
+    
+    
+}
+#footer{
+    
+    
+    color: blue;
+    text-align:left;
+    background-color : white;
+    
+              border-color:red;
+              width: 1348px;
+             
+    
+}
+#center{
+    color: navy;
+    
+    margin-left: 0px;
+	margin-top: 400px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+    
+}
+ #td {
+    border-style:solid;
+    border-color: #96D4D4;
+  }
+   
+    
+ 
+    
+    
