@@ -25,6 +25,13 @@ body
              
     
 }
+#panel1{
+	width:550 px;
+	height:888 px; 
+	position:absolute; 
+	top:173px; 
+	right:775px;
+}
 #center{
     color: navy;
     
@@ -38,6 +45,7 @@ body
     border-style:solid;
     border-color:black;
   }
+
    
     
  
