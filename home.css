@@ -3,7 +3,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     
   }
-
+// stylelint-disable-next-line scss/selector-no-union-class-name
+    &#{$infix} {
+      @include media-breakpoint-up($next) {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
     
 
         .navbar-nav {
@@ -16,7 +20,7 @@ body {
             padding-left: var(--#{$prefix}navbar-nav-link-padding-x);
           }
         
-
+        }
         .collapse navbar-collapse
 
          {
