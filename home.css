@@ -7,39 +7,9 @@ body {
     
 
        
-        .navbar-nav {
-   
-    list-style: none;
-}
-
-
-         .nav-link {
-    display: block;
-    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-    font-size: var(--bs-nav-link-font-size);
-    font-weight: var(--bs-nav-link-font-weight);
-    color: var(--bs-nav-link-color);
-    text-decoration: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-}
         
-        
-        .collapse navbar-collapse
 
-         {
-          display: flex !important; // stylelint-disable-line declaration-no-important
-          flex-basis: auto;
-        }
-
-        .navbar-toggler {
-         padding: 0.25rem 0.75rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
-    transition: box-shadow .15s ease-in-out;
-        }
+      
 
         
         
